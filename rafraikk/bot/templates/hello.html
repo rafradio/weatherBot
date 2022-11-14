@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rafraikk</title>
+<link href="/static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Hello from Flask Module</h1>
+        <form class="form_weather" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <input type="submit" value="Submit">
+        </form>
+        <p>Commands:</p>
+        {% for value in insertName %}
+        <p>{{value}}:</p>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(213, 129, 129);
+}
+.wrapper {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.form_weather {
+    display: block;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;  
+}
+input[type=text] {
+    border: 2px solid #ccc; 
+}
+input[type=submit] {
+    font-size: 12px; 
+    background: #ccc; 
+    border: 2px #ccc;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    padding: 4px 5px;
+    border-radius: 5px; 
+}
